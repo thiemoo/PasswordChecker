@@ -100,11 +100,3 @@ Eine Sache, die ich beim Fenster-Programm gelernt habe: Der Leak-Check läuft in
 Thread, damit das Fenster während der Anfrage nicht einfriert. tkinter darf aber nur aus dem
 Haupt-Thread verändert werden. Deshalb legt der Hintergrund-Thread sein Ergebnis in eine Queue,
 und das Fenster holt es von dort ab.
-
-## Ideen für später
-
-- [ ] Abgleich mit einer Liste der 10.000 häufigsten Passwörter
-- [ ] Schätzen, wie lange ein Angreifer zum Knacken bräuchte
-- [ ] Passwort-Generator mit dem `secrets`-Modul
-- [ ] Meinen Score mit der Bibliothek `zxcvbn` vergleichen
-- [ ] Dasselbe nochmal in Java
